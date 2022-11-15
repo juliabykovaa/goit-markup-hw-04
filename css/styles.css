@@ -91,6 +91,7 @@ p {
     justify-content: start;
 }
 
+
 .header {
     border-bottom: 1px solid #ECECEC;
 }
@@ -126,6 +127,12 @@ p {
     margin-left: 50px;
 }
 
+.contact-icon {
+    outline: 1px solid red;
+    width: 10px;
+    height: 16px;
+}
+
 .address .link:hover,
 .address .link:focus,
 .contact-link:hover,
@@ -148,7 +155,9 @@ p {
 }
  
 .hero {
-    background-color: var(--dark-gray-color); 
+    background-color: var(--dark-gray-color);
+    background-image: url(../images/background.jpg); 
+    background-image: linear-gradient (rgba(47, 48, 58, 0.4));
     text-align: center;
     padding-bottom: 200px;
     padding-top: 200px;
@@ -276,6 +285,7 @@ p {
 
 .member-card {
     display: flex;
+
 }
 
 .member-card .item {
@@ -292,6 +302,13 @@ p {
 
 .member-card .item:last-child {
     margin-right: 0;
+}
+
+.socials-icon {
+    fill:rgba(0, 0, 0, 0.25);
+    width: 44px;
+    height: 44px;
+    
 }
 
 

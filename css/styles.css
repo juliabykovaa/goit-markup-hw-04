@@ -164,9 +164,9 @@ p {
   color: var(--accent-color);
 }
 
-.contact-nav .item:hover svg,
-.contact-nav .item:focus svg {
-    fill:currentColor;
+.contact-nav .link:hover svg,
+.contact-nav .link:focus svg {
+    fill: currentColor;
 }
 
 .hero {
